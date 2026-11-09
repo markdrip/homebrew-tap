@@ -18,10 +18,7 @@ cask "markdrip" do
   app "Markdrip.app"
 
   caveats <<~EOS
-    Markdrip is not notarized by Apple. On macOS 27, Gatekeeper blocks the
-    first launch of this downloaded app and offers only Move to Trash or Done;
-    there is no Open Anyway button, and right-clicking and choosing Open does
-    not change that. Do not disable macOS security protections. Details:
-    https://markdrip.app/download/
+    If macOS blocks Markdrip from opening, see the official download page for
+    details: https://markdrip.app/download/
   EOS
 end
