@@ -1,6 +1,6 @@
 cask "markdrip" do
-  version "1.0.5"
-  sha256 "b2d8af69726bc1b00e42fdf4c15f86977be6c111966fc01ffa295697fdc7e2a8"
+  version "1.0.6"
+  sha256 "14c947af0ee8dbf36898bda37477ac601497019d5da86fd7c84be17252233b87"
 
   url "https://markdrip.app/releases/#{version}/markdrip-#{version}.dmg"
   name "Markdrip"
